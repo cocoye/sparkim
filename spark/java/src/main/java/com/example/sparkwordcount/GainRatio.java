@@ -78,7 +78,7 @@ class GainRatio {
 
     public void getReduceResults() {
         try {
-            FileInputStream fileInputStream = new FileInputStream(Config.pathToOutput() + JavaWordCount.currentIndex);
+            FileInputStream fileInputStream = new FileInputStream("/home/yezi/output2/" + JavaWordCount.currentIndex+"/part-00000");
             DataInputStream in = new DataInputStream(fileInputStream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String line;

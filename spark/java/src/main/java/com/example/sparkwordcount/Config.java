@@ -51,7 +51,7 @@ public class Config {
     }
 
     public static String pathToRuleSet() {
-        return "/home/hadoop/rule-att7new.txt";
+        return "/home/yezi/rule.txt";
     }
 
     public static String pathToOutput() {
